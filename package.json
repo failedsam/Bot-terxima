@@ -1,0 +1,18 @@
+{
+  "name": "ultimate-discord-bot",
+  "version": "3.0.0",
+  "description": "The Kanye West of Discord bots",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "@napi-rs/canvas": "^0.1.44"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
